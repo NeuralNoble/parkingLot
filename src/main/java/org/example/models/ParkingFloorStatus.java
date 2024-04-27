@@ -1,4 +1,6 @@
 package org.example.models;
 
-public class ParkingFloorStatus {
+public enum ParkingFloorStatus {
+    OPEN,
+    CLOSED
 }

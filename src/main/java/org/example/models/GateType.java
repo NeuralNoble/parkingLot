@@ -1,4 +1,6 @@
 package org.example.models;
 
-public class GateType {
+public enum GateType {
+    ENTRY,
+    EXIT,
 }

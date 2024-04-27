@@ -1,4 +1,7 @@
 package org.example.models;
 
-public class PaymentStatus {
+public enum PaymentStatus {
+    PENDING,
+    CONFIRMED,
+    REFUNDED,
 }

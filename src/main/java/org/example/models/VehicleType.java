@@ -1,4 +1,6 @@
 package org.example.models;
 
-public class VehicleType {
+public enum VehicleType {
+    TWO_WHEELER,
+    FOUR_WHEELER,
 }

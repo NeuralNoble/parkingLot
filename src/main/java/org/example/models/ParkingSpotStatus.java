@@ -1,4 +1,6 @@
 package org.example.models;
 
-public class ParkingSpotStatus {
+public enum ParkingSpotStatus {
+    EMPTY,
+    FILLED,
 }

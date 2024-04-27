@@ -1,4 +1,8 @@
 package org.example.models;
 
-public class PaymentMode {
+public enum PaymentMode {
+    CASH,
+    UPI,
+    CREDIT_CARD,
+    DEBIT_CARD,
 }

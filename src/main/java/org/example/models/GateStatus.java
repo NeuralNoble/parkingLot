@@ -1,4 +1,6 @@
 package org.example.models;
 
-public class GateStatus {
+public enum GateStatus {
+    OPEN,
+    CLOSED,
 }
